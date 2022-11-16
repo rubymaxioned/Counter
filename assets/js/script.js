@@ -7,14 +7,16 @@ btn.addEventListener('click',myFunction);
 function myFunction(){
     btn.classList.add('hide');
     counterContent.classList.add('show');
-
+    counter[0].classList.add("active");
     var num = 1;
     var interval = setInterval(function () {
         if (num > 3) {
             clearInterval(interval);
             btn.classList.remove('hide');
             counterContent.classList.remove('show');
-        } else {
+            counter[num-1].classList.remove("active");
+        } 
+        else {
             for(var i=0; i<counter.length; i++) {
                 counter[i].classList.remove("active");
             }
