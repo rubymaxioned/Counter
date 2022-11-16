@@ -2,8 +2,6 @@ var btn = document.querySelector(".initial-content");
 var counterContent = document.querySelector(".counter-content");
 var counter = document.querySelectorAll(".counter");
 
-counter[0].classList.add("active");
-
 btn.addEventListener('click',myFunction);
 
 function myFunction(){
@@ -27,23 +25,3 @@ function myFunction(){
         num++;
     }, 1000);
 };
-
-    
-//     let num = 2;
-
-//     counter.innerText = 3;
-
-//     var interval = setInterval(function(){
-//         if(num < 0) {
-//             console.log('abc');
-//             clearInterval(interval);
-//             btn.classList.remove('hide');
-//             counterContent.classList.remove('show');
-//         }
-//         else{
-//             console.log('here');
-//         counter.classList.add('counter');
-//         counter.innerText = num;
-//         num--; 
-//         }
-//     }, 1000)
