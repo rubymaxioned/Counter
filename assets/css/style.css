@@ -139,8 +139,6 @@ li {
   gap: 3px;
  } 
 
-.counter { color: #0096FF; }
-
 .counter-content span:nth-of-type(2) {
   font-size: 10px;
   text-transform: uppercase;
@@ -160,13 +158,7 @@ li {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
- }
-
-.counter.active {
-  animation-name: first;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: 1;
+  color: #0096FF;
 }
 
 @keyframes first {
