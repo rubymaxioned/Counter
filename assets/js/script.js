@@ -23,7 +23,7 @@ function myFunction(){
         }
         else{
             console.log('here');
-        counter.classList.add('active');
+        counter.classList.add('counter');
         counter.innerText = num;
         num--; 
         }
