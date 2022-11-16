@@ -139,7 +139,7 @@ li {
   gap: 3px;
  } 
 
-.counter-content span:nth-of-type(2) {
+.counter-content span:nth-of-type(5) {
   font-size: 10px;
   text-transform: uppercase;
 }
