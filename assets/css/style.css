@@ -111,12 +111,74 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.initial-content span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
+.initial-content,
+.counter-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.initial-content { gap: 10px; }
 
+.counter-content { 
+  /* display: none; */
+  gap: 3px;
+ } 
 
+.counter { color: #0096FF; }
 
+.counter-content span:nth-of-type(2) {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.btn {
+  font-size: 8px;
+  text-transform: capitalize;
+}
+
+.show { display: flex; }
+.hide { display: none; } 
+
+.counter {
+  position: relative;
+  animation-name: first;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes first {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(-45deg);
+  }
+  75% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
+}
 /*=================================
   Header styling ends here
 =================================*/  
