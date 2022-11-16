@@ -154,8 +154,15 @@ li {
 .show { display: flex; }
 .hide { display: none; } 
 
-.counter {
+.counter { 
   position: relative;
+  animation-name: first;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+ }
+
+.counter.active {
   animation-name: first;
   animation-duration: 1s;
   animation-fill-mode: forwards;
@@ -164,10 +171,10 @@ li {
 
 @keyframes first {
   0% {
-    transform: rotate(0deg);
+    transform: rotate(90deg);
   }
   50% {
-    transform: rotate(0deg);
+    transform: rotate(45deg);
   }
   75% {
     transform: rotate(-45deg);
