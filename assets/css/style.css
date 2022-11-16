@@ -135,7 +135,7 @@ li {
 .initial-content { gap: 10px; }
 
 .counter-content { 
-  /* display: none; */
+  display: none;
   gap: 3px;
  } 
 
