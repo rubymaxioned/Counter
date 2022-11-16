@@ -139,7 +139,7 @@ li {
   gap: 3px;
  } 
 
-.counter-content span:nth-of-type(2) {
+.counter-content span:nth-of-type(5) {
   font-size: 10px;
   text-transform: uppercase;
 }
@@ -152,7 +152,7 @@ li {
 .show { display: flex; }
 .hide { display: none; } 
 
-.counter { 
+.counter.active { 
   position: relative;
   animation-name: first;
   animation-duration: 1s;
