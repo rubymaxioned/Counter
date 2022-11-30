@@ -136,7 +136,7 @@ li {
 .initial-content { gap: 10px; }
 
 .counter-content { 
-  display: none;
+  /* display: none; */
   gap: 3px;
  } 
 
@@ -162,11 +162,12 @@ li {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
+  transition: all .5s cubic-bezier(0.22, 0.98, 0.78, 0.3);
   color: #0096FF;
-  font-size: 60px;
+  font-size: 45px;
 }
 
-@keyframes first {
+/* @keyframes first {
   0% {
     transform: rotate(90deg);
   }
@@ -179,6 +180,23 @@ li {
   100% {
     transform: rotate(-90deg);
   }
+} */
+
+@keyframes first {
+  0% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
+}
+
+.counter {
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  background: red;
+  text-align: center;
 }
 /*=================================
   Header styling ends here
