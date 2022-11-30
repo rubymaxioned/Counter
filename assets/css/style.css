@@ -159,10 +159,11 @@ li {
   display: block;
   position: relative;
   animation-name: first;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
-  transition: all .5s cubic-bezier(0.22, 0.98, 0.78, 0.3);
+  transition: all .5s cubic-bezier(0, 0.93, 0.9, 0.26);
+  /* transition: all .5s cubic-bezier(0.22, 0.98, 0.78, 0.3); */
   color: #0096FF;
   font-size: 45px;
 }
