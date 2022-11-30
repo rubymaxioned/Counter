@@ -120,6 +120,7 @@ li {
 }
 
 .initial-content span {
+  font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -140,12 +141,13 @@ li {
  } 
 
 .counter-content span:nth-of-type(5) {
-  font-size: 10px;
+  font-size: 14px;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
 .btn {
-  font-size: 8px;
+  font-size: 11px;
   text-transform: capitalize;
 }
 
@@ -161,6 +163,7 @@ li {
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   color: #0096FF;
+  font-size: 60px;
 }
 
 @keyframes first {
